@@ -1,0 +1,29 @@
+.randomPlanetImage {
+    max-width: 300px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.headerContainer {
+    background: rgba(59, 65, 75, 0.78);
+    border-radius: 20px;
+}
+
+.planetContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.planetInfo {
+    margin-left: 20px;
+}
+
+.planetInfo h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.planetInfo p {
+    margin-bottom: 30px;
+}

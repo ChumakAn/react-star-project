@@ -1,0 +1,98 @@
+.starshipList, .selectedStarshipContainer {
+    background: rgba(59, 65, 75, 0.78);
+}
+
+.starshipList ul > li {
+    border-top: 1px solid;
+    list-style-type: none;
+}
+
+.starshipList ul > li:first-child {
+    padding-top: 0;
+    display: flex;
+    border-top: 0 none;
+    justify-content: center
+}
+
+.starshipList ul > li:last-child {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center
+}
+
+.starshipList ul {
+    padding: 0;
+}
+
+.starshipList li {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.starshipListContainer {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.starshipList {
+    width: 40%;
+}
+
+.selectedStarshipContainer {
+    width: max-content;
+    margin-left: 20px;
+    height: max-content;
+}
+
+.selectedStarshipImage {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectedStarshipImage img {
+    width: 90%;
+}
+
+.selectedStarship {
+
+}
+
+.selectedStarshipInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.selectedStarshipInfo ul {
+    padding-left: 10px;
+}
+
+.selectedStarshipInfo ul > li {
+    border-top: 1px solid;
+    list-style-type: none;
+    display: flex;
+    border-color: rgba(240, 248, 255, 0.35);
+    justify-content: flex-start;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.selectedStarshipInfo ul > li:first-child {
+    padding-top: 0;
+    display: flex;
+    border-top: 0 none;
+    justify-content: flex-start;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.selectedStarshipInfo ul > li:last-child {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+}

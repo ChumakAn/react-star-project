@@ -1,0 +1,12 @@
+
+body {
+  background: #282c34;
+  font-family: Monospace, serif;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+* {
+  font-family: Monospace, serif;
+  color: aliceblue;
+}

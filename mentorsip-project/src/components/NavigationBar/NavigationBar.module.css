@@ -1,0 +1,13 @@
+
+.mainHeader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo {
+    font-size: 23px;
+}
